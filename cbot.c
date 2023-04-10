@@ -34,12 +34,12 @@ void main()
        delay(1500);
        printf("Hi,Nice to meet you !\n");
       }
-      if(strcmp(input,"what is your name?")==0)
+      else if(strcmp(input,"what is your name?")==0)
       {
        delay(1500);
        printf("My name is C bot!\n");
       }
-      if(strcmp(input,"what's your name?")==0)
+      else if(strcmp(input,"what's your name?")==0)
       {
        delay(1500);
        printf("My name is C bot!\n");
