@@ -7,17 +7,16 @@ void main()
 {
    char input[200],name[20];
    int gd=DETECT,gm;
-   int x=1,y=100,i=2;
    initgraph(&gd,&gm,"C://TURBOC3//BGI");
-   setcolor(i);
+   setcolor(2);
    settextstyle(10,HORIZ_DIR,1);
    outtextxy(300,50,"C BOT");  //designing heading
    delay(1000);
    settextstyle(0,HORIZ_DIR,1);
    setcolor(WHITE);
-   outtextxy(x,110,"NOTE: Press 4 for exit");
+   outtextxy(1,110,"NOTE: Press 4 for exit");
    delay(500);
-   outtextxy(x,125,"Since I'm case sensitve! Deal with me in lowercase for better response");
+   outtextxy(1,125,"Since I'm case sensitve! Deal with me in lowercase for better response");
    delay(1000);
    printf("\n\n\n\n\n\n\n\n");
    cprintf("\n");
