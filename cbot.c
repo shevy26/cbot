@@ -39,6 +39,16 @@ void main()
        delay(1500);
        printf("My name is C bot!\n");
       }
+        else if(strcmp(input,"i am not good")==0)
+      {
+       delay(1500);
+       printf("I' am sorry to hear that\n");
+      }
+        else if(strcmp(input,"i am not well")==0)
+      {
+       delay(1500);
+       printf("I'm sorry to hear that \n");
+      }
       else if(strcmp(input,"what's your name?")==0)
       {
        delay(1500);
@@ -89,6 +99,11 @@ void main()
        printf("Hi! My builder name is Shevy \n");
       }
       else if(strcmp(input,"you are made up of which language?")==0)
+      {
+       delay(1500);
+       printf("I'm made up of C language\n");
+      }
+        else if(strcmp(input,"you are made up of what language?")==0)
       {
        delay(1500);
        printf("I'm made up of C language\n");
