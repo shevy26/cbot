@@ -39,6 +39,11 @@ void main()
        delay(1500);
        printf("My name is C bot!\n");
       }
+        else if(strcmp(input,"who create you?")==0)
+      {
+       delay(1500);
+       printf("My builder name is shevy");
+      }
         else if(strcmp(input,"i am not good")==0)
       {
        delay(1500);
