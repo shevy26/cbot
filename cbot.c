@@ -33,6 +33,11 @@ void main()
 
       printf("Cbot : My name is C bot!\n");
     }
+      else if (strcmp(input, "where do you live?") == 0)
+    {
+
+      printf("Cbot : I live in your device !\n");
+    }
      else if (strcmp(input, "okay") == 0||strcmp(input, "ok") == 0)
     {
 
