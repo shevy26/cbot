@@ -43,6 +43,11 @@ void main()
 
       printf("Cbot : Hmmm...\n");
     }
+     else if (strcmp(input, "good evening") == 0||strcmp(input, "good afternoon") == 0||strcmp(input, "good morning") == 0||strcmp(input, "good night") == 0)
+    {
+
+      printf("Cbot : Hey ! Nice to meet you %s \n",name);
+    }
     else if (strcmp(input, "open chrome") == 0 || strcmp(input, "run chrome") == 0 || strcmp(input, "start chrome") == 0)
     {
       printf("Cbot : Opening Chrome...\n");
