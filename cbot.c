@@ -82,8 +82,9 @@ void main()
 
       printf("Cbot : My name is C bot!\n");
     }
-    else if (strcmp(input, "4") == 0)
+    else if (strcmp(input, "4") == 0||strcmp(input,"goodbye")==0||strcmp(input,"bye")==0)
     {
+      printf("Cbot : Bye %s ! See you again!\n",name);
       exit(0);
     }
     else if (strcmp(input, "hello") == 0)
@@ -169,7 +170,7 @@ void main()
     {
       printf("Cbot : Ya, I'm a bot .\n");
     }
-      else if (strcmp(input, "what day is it today?") == 0||strcmp(input, "what is the time?") == 0)
+      else if (strcmp(input, "what day is it today?") == 0||strcmp(input, "what is the time?") == 0||strcmp(input,"what is the day today?")==0)
     {
 
       printf("Cbot : Date & Time: %s \n",ctime(&t));
