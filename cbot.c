@@ -66,6 +66,14 @@ void main()
 
       printf("Cbot : My builder name is shevy");
     }
+     else if (strcmp(input, "happy birthday") == 0)
+    {
+      printf("Cbot : I celebrate my birthday whenever I am updated. Thanks %s.\n",name);
+    }
+     else if (strcmp(input, "welcome") == 0||strcmp(input, "my pleasure") == 0)
+    {
+      printf("Cbot : So sweet of you !");
+    }
     else if (strcmp(input, "i am not good") == 0)
     {
 
