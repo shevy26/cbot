@@ -72,7 +72,7 @@ void main()
     }
      else if (strcmp(input, "welcome") == 0||strcmp(input, "my pleasure") == 0)
     {
-      printf("Cbot : So sweet of you !");
+      printf("Cbot : So sweet of you !\n");
     }
     else if (strcmp(input, "i am not good") == 0)
     {
