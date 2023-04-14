@@ -81,7 +81,7 @@ void main()
 
       printf("Cbot : How dare you ! %s !",name);
     }
-     else if (strcmp(input, "happy birthday") == 0)
+     else if (strcmp(input, "happy birthday") == 0||strcmp(input, "happy birthday cbot") == 0)
     {
       printf("Cbot : I celebrate my birthday whenever I am updated. Thanks %s.\n",name);
     }
@@ -93,6 +93,11 @@ void main()
     {
 
       printf("Cbot : I' am sorry to hear that\n");
+    }
+      else if (strcmp(input, "ya") == 0||strcmp(input, "yeah") == 0)
+    {
+
+      printf("Cbot : okay \n");
     }
      else if (strcmp(input, "what's up?") == 0)
     {
@@ -198,7 +203,7 @@ void main()
     {
       printf("Cbot : Ya, I'm a bot .\n");
     }
-      else if (strcmp(input, "what day is it today?") == 0||strcmp(input, "what is the time?") == 0||strcmp(input,"what is the day today?")==0)
+      else if (strcmp(input, "what day is it today?") == 0||strcmp(input, "what is the time?") == 0||strcmp(input,"what is the day today?")==0||strcmp(input,"time")==0||strcmp(input,"day")==0)
     {
 
       printf("Cbot : Date & Time: %s \n",ctime(&t));
