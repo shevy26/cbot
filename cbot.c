@@ -14,6 +14,7 @@ void main()
   printf("CCCCC   B---B   | OO |     |   \n");
   printf("\n");
   printf("\nNOTE: Press 4 for exit\n");
+  printf("\n Press 3 to shutdown your Pc or laptop\n ");
   printf("Since I'm case sensitive! Deal with me in lowercase for better response\n");
   printf("\n");
   printf("Cbot : Hi,I'm C bot\n");
@@ -27,6 +28,10 @@ void main()
     {
 
       printf("Cbot : Hi,Nice to meet you !\n");
+    }
+    else if (strcmp(input, "3") == 0)
+    {
+      printf("Cbot : Shutting Down.......\n");
     }
     else if (strcmp(input, "what is your name?") == 0)
     {
